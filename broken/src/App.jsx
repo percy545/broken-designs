@@ -1,19 +1,19 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { 
-  ArrowUpRight, 
-  ExternalLink, 
-  Mail, 
-  MessageSquare, 
-  ArrowUp, 
-  Menu, 
-  X, 
-  Copy, 
-  Check, 
-  Code2, 
-  Layout, 
-  Sparkles, 
-  Layers, 
-  Globe, 
+import {
+  ArrowUpRight,
+  ExternalLink,
+  Mail,
+  MessageSquare,
+  ArrowUp,
+  Menu,
+  X,
+  Copy,
+  Check,
+  Code2,
+  Layout,
+  Sparkles,
+  Layers,
+  Globe,
   ShieldCheck,
   Send
 } from 'lucide-react';
@@ -38,10 +38,10 @@ const PROJECTS = [
   },
   {
     id: '03',
-    name: 'Auntrans',
+    name: 'Autrans',
     category: 'Audio Transcription / Web Development',
     description: 'A collaborative project focused on audio transcription and providing a digital experience for converting audio content into text.',
-    url: 'https://auntrans.online',
+    url: 'https://autrans.online',
     isLive: true
   },
   {
@@ -603,7 +603,7 @@ export default function App() {
           <div className="container">
             <div className="contact-card-main reveal-init">
               <span className="section-label">GET IN TOUCH</span>
-              
+
               <h2 className="contact-heading-large">
                 HAVE AN IDEA?<br />
                 LET’S BUILD IT.
